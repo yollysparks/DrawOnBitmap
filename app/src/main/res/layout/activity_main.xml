@@ -17,5 +17,13 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Save Picture" android:id="@+id/SavePictureButton"/>
+        android:text="Save Picture"
+        android:id="@+id/SavePictureButton"/>
+    <Button
+        android:id="@+id/btnSendEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Email"
+        android:onClick="onClick" />
+
 </LinearLayout>
